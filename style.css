@@ -80,7 +80,7 @@ nav a:hover, nav a.active { color: var(--gold-light); }
 
 .proof { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(50px,8vw,110px); align-items: center; }
 .proof-image { max-width: 430px; }
-.proof-image img { width: 100%; aspect-ratio: .76; object-fit: cover; object-position: center 40%; border-radius: var(--radius); border: 1px solid var(--line); }
+.proof-image img { width: 100%; height: auto; object-fit: contain; border-radius: var(--radius); border: 1px solid var(--line); }
 .proof-copy > p { max-width: 580px; }
 .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 34px; }
 .comparison > div { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; padding: 18px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
