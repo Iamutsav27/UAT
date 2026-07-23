@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Nasal Secure brand icon</title>
+  <desc id="desc">Gold infinity symbol on a deep navy background</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102635"/>
+      <stop offset="1" stop-color="#07131d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2d795"/>
+      <stop offset="1" stop-color="#d6a94e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M96 256c0-75 88-100 160 0s160 75 160 0-88-100-160 0-160 75-160 0Z"
+    fill="none" stroke="url(#gold)" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
